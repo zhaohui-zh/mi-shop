@@ -3,9 +3,9 @@
   <div class="app-init scroll-box mine-page footer-hack">
     <div class="user-box public-padding">
       <div class="face-book">
-        <img @click="$router.openPage('/pay')" src="http://qiniu.verydog.cn/show.liluo.cc/normal-face.png" alt="">
+        <img @click="$router.openPage('/login')" src="http://qiniu.verydog.cn/show.liluo.cc/normal-face.png" alt="">
       </div>
-      <p class="fl" @click="$router.openPage('/pay')"> 登录 /  注册 </p>
+      <p class="fl" @click="$router.openPage('/login')"> 登录 /  注册 </p>
     </div>
 
     <div class="dingdan public-padding p-item" @click="$router.openPage('/pay')">

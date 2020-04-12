@@ -69,6 +69,27 @@ export default new Router({
       }
     },
     {
+      path: '/about',
+      name: 'about',
+      component(resolve){
+        require(['@/views/about/index.vue'], resolve)
+      }
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component(resolve){
+        require(['@/views/login/index.vue'], resolve)
+      }
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component(resolve){
+        require(['@/views/register/index.vue'], resolve)
+      }
+    },
+    {
       path: '/error/404',
       name: 'error-404',
       component(resolve){
