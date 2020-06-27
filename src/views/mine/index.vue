@@ -56,6 +56,10 @@
     </div>
 
     <div class="new-wrap">
+      <div class="dingdan public-padding p-item" @click="$router.openPage('/live')">
+        <span class="iconfont icon-shezhi" style="color: #818C99;"></span>
+        <span>直播</span>
+      </div>
       <div class="dingdan public-padding p-item" @click="$router.openPage('/pay')">
         <span class="iconfont icon-shezhi" style="color: #818C99;"></span>
         <span>设置</span>

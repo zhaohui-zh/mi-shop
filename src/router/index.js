@@ -90,6 +90,13 @@ export default new Router({
       }
     },
     {
+      path: '/live',
+      name: 'live',
+      component(resolve){
+        require(['@/views/live/index.vue'], resolve)
+      }
+    },
+    {
       path: '/error/404',
       name: 'error-404',
       component(resolve){
